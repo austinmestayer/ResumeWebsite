@@ -2,6 +2,10 @@ import React from "react";
 import Typical from "react-typical";
 import "./Profile.css";
 
+/*
+Main .js file for handling header management
+*/
+
 export default function Profile() {
   return (
     <div className="profile-container">
@@ -20,7 +24,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'm <span className="highlighted-text">Austin</span>
+              <span className="highlighted-text">Austin Mestayer</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -43,7 +47,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Full-stack website developer using React.
+                Full-stack website developer using React, Node.js, and RXJS.
               </span>
             </span>
           </div>
