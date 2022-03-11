@@ -5,3 +5,11 @@ Steps to compile:
 3. run 'npm install' if react-scripts is present, else:
    run 'npm install react-scripts --save'
 4. run 'npm start'
+
+Setting GIT host path:
+
+//set GIT host path URL:
+git remote set-url origin <URL>
+
+//see existing URL
+git config remote.origin.url
