@@ -19,5 +19,17 @@ git remote set-url origin https://github.com/austinmestayer/austinmestayer.githu
 git branch -M main
 git push -u origin main
 npm install gh-pages --save-dev
+set deployment branch as gh-pages/main
+run deploy
+fail out
 set deployment branch as gh-pages/docs
 npm run deploy
+
+//useful GIT commands
+
+:::create new branch and push
+git remote set-url origin <URL>
+git config remote.origin.url
+git pull
+git checkout -b (new branch name)
+git push origin (new branch name)
