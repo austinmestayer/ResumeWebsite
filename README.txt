@@ -33,3 +33,5 @@ git config remote.origin.url
 git pull
 git checkout -b (new branch name)
 git push origin (new branch name)
+
+bruh
